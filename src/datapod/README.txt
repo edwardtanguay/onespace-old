@@ -1,0 +1,14 @@
+- terminology
+	-  `pathAndFileName` = always from root of project, e.g.
+		- `src/dpodreact/scripts/test.txt`
+		- `package.json` (in root directory)
+	- `path` = always path from root with ending slash
+		- `src/dpodreact/scripts/`
+	- `directory` = always path from roo without ending slash
+		- `src/dpodreact/scripts`
+	- `relativePathAndFileName` = from where it is called
+		- `../scripts/test.txt`
+		- `test.txt` (in same directory)
+
+- this is a change
+- second line

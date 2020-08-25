@@ -1,0 +1,68 @@
+$frame_background_color: #ddd;
+
+.App {
+    text-align: left;
+}
+
+body {
+    background-color: #eee;
+}
+
+.content {
+    padding: 15px;
+    margin: 70px 0 0 0;
+}
+
+.footer {
+    position: fixed;
+    margin-right: 10px;
+    bottom: 0;
+    left: 0;
+    font-size: 0.8em;
+    color: #aaa;
+    font-style: italic;
+    text-align: right;
+    width: 100%;
+    background-color: $frame_background_color;
+    border-top: 1px solid #ccc;
+    height: 38px;
+
+    .innerFooter {
+        margin: 10px 15px 15px 15px;
+    }
+}
+
+.flashcard {
+    margin: 0 0 10px 0;
+
+    .front {
+        font-weight: normal;
+        font-size: 0.8em;
+        cursor: pointer;
+    }
+
+    .back {
+        color: brown;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.8em;
+    }
+}
+
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+
+    width: 100%;
+    a {
+        color: black;
+    }
+}
+
+a.active {
+    font-weight: bold;
+}
+
+.appTitle {
+    color: #555;
+    font-weight: normal;
+}
